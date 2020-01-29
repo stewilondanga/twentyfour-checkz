@@ -481,12 +481,12 @@ button span {
   transition: opacity 700ms ease;
 }
 
-/*#toggler_2-1 input:checked + span + .two, #toggler_2-1 input:checked + span + .two::before, #toggler_2-1 input:checked + span + .two::after {
+#toggler_2-1 input:checked+span+.two, #toggler_2-1 input:checked+span+.two::before, #toggler_2-1 input:checked+span+.two::after {
   opacity: 1;
   transition: opacity 700ms ease 700ms;
 }
 
-#toggler_2-2 span {
+/*#toggler_2-2 span {
   top: 50%;
   transform: translateY(-50%);
 }
