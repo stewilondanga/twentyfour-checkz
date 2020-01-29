@@ -1249,11 +1249,12 @@ button span {
   transition: transform 350ms ease;
 }
 
-/*#toggler_5-3 span::after {
+#toggler_5-3 span::after {
   transform: rotateZ(45deg) translateX(18px) translateY(6px);
   transform-origin: bottom right;
 }
-#toggler_5-3 input:checked + span {
+
+/*#toggler_5-3 input:checked + span {
   transform: rotateZ(-90deg) translateX(-10px) translateY(14px);
 }
 #toggler_5-3 input:checked + span::before {
