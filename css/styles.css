@@ -1189,12 +1189,13 @@ button span {
   width: 100%;
 }
 
-/*#toggler_5-2 span, #toggler_5-2 span::before, #toggler_5-2 span::after {
+#toggler_5-2 span, #toggler_5-2 span::before, #toggler_5-2 span::after {
   position: absolute;
   left: 0;
   height: 9px;
 }
-#toggler_5-2 span::before, #toggler_5-2 span::after {
+
+/*#toggler_5-2 span::before, #toggler_5-2 span::after {
   content: "";
   display: block;
   top: 0;
