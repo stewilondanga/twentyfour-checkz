@@ -1052,7 +1052,7 @@ button span {
   animation-name: t_4-4_one_backwards;
 }
 
-/*#toggler_4-4 span.two {
+#toggler_4-4 span.two {
   top: 0;
   left: 25px;
   width: 9px;
@@ -1060,7 +1060,8 @@ button span {
   transform-origin: top left;
   animation-name: t_4-4_two_backwards;
 }
-#toggler_4-4 input.input-1 {
+
+/*#toggler_4-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
