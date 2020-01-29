@@ -508,10 +508,11 @@ button span {
   transition: opacity 0ms 350ms;
 }
 
-/*#toggler_2-2 span.one, #toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
+#toggler_2-2 span.one, #toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
   background-color: #708EA4;
 }
-#toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
+
+/*#toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
   transition: transform 350ms ease 350ms;
 }
 #toggler_2-2 span.one::before {
