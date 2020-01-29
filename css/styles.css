@@ -835,13 +835,14 @@ button span {
   animation-name: t_3-4_after;
 }
 
-/*#toggler_3-4 input.input-1 {
+#toggler_3-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
-#toggler_3-4 input.input-1:not(:checked) ~ span, #toggler_3-4 input.input-1:not(:checked) ~ span::after {
+
+/*#toggler_3-4 input.input-1:not(:checked) ~ span, #toggler_3-4 input.input-1:not(:checked) ~ span::after {
   animation-name: none;
 }
 #toggler_3-4 input.input-1:checked {
