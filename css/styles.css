@@ -573,11 +573,12 @@ button span {
   transition: transform 350ms ease, opacity 350ms ease;
 }
 
-/*#toggler_2-3 span::before, #toggler_2-3 span::after {
+#toggler_2-3 span::before, #toggler_2-3 span::after {
   content: "";
   display: block;
 }
-#toggler_2-3 span.one {
+
+/*#toggler_2-3 span.one {
   transform: translateY(-50%);
 }
 #toggler_2-3 span.one, #toggler_2-3 span.one::before, #toggler_2-3 span.one::after {
