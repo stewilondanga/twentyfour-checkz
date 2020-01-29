@@ -168,7 +168,7 @@ button span {
   bottom: -18px;
 }
 
-/*#toggler_1-3 span.inner {
+#toggler_1-3 span.inner {
   width: 100%;
   height: 100%;
   font-family: "Open Sans";
@@ -178,7 +178,8 @@ button span {
   opacity: 0;
   transition: opacity 350ms ease;
 }
-#toggler_1-3 input:checked + span.outer {
+
+/*#toggler_1-3 input:checked + span.outer {
   height: 100%;
   border-radius: 50%;
   transition: height 700ms ease, border-radius 700ms ease;
