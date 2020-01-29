@@ -1524,10 +1524,11 @@ button span {
   background-color: #9D7DBF;
 }
 
-/*#toggler_6-2 input:checked + .outer .inner {
+#toggler_6-2 input:checked+.outer .inner {
   background-color: transparent;
 }
-#toggler_6-2 input:checked + .outer .inner::before, #toggler_6-2 input:checked + .outer .inner::after {
+
+/*#toggler_6-2 input:checked + .outer .inner::before, #toggler_6-2 input:checked + .outer .inner::after {
   background-color: #3B1167;
   width: 30px;
   transform: none;
