@@ -854,11 +854,11 @@ button span {
   animation-name: t_3-4_span_backwards;
 }
 
-/*#toggler_3-4 input.input-2:checked + span::after {
+#toggler_3-4 input.input-2:checked+span::after {
   animation-name: t_3-4_after_duplicate;
 }
 
-@keyframes t_3-4_span_forwards {
+/*@keyframes t_3-4_span_forwards {
   0% {
     width: 60px;
     left: 0;
