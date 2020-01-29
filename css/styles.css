@@ -41,11 +41,11 @@ input[type="checkbox"] {
   opacity: 0;
 }
 
-/*input[type="checkbox"]:focus {
+input[type="checkbox"]:focus {
   outline: none;
 }
 
-button span {
+/*button span {
   display: block;
   pointer-events: none;
 }
