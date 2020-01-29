@@ -1806,10 +1806,11 @@ button span {
   background-color: #277552;
 }
 
-/*.toggler[id^="toggler_4"] {
+.toggler[id^="toggler_4"] {
   background-color: #553100;
 }
-.toggler[id^="toggler_5"] {
+
+/*.toggler[id^="toggler_5"] {
   background-color: #161616;
 }
 .toggler[id^="toggler_6"] {
