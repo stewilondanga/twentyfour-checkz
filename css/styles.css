@@ -1014,7 +1014,7 @@ button span {
   background-color: #FFDBAA;
 }
 
-/*#toggler_4-3 span::after {
+#toggler_4-3 span::after {
   content: "";
   display: block;
   top: 25px;
@@ -1023,7 +1023,8 @@ button span {
   height: 9px;
   transition: width 350ms ease, left 350ms ease, background-color 350ms ease;
 }
-#toggler_4-3 input:checked + span {
+
+/*#toggler_4-3 input:checked + span {
   width: 60px;
   left: 0;
   border-radius: 50%;
