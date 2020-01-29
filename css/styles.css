@@ -1036,13 +1036,14 @@ button span {
   background-color: #553100;
 }
 
-/*#toggler_4-4 span {
+#toggler_4-4 span {
   position: absolute;
   background-color: #FFDBAA;
   animation-duration: 1050ms;
   animation-fill-mode: forwards;
 }
-#toggler_4-4 span.one {
+
+/*#toggler_4-4 span.one {
   top: 25px;
   left: 0;
   width: 100%;
