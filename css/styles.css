@@ -608,10 +608,11 @@ button span {
   background-color: #708EA4;
 }
 
-/*#toggler_2-3 span + .two::before {
+#toggler_2-3 span+.two::before {
   transform: rotateZ(-45deg) translateX(100%);
 }
-#toggler_2-3 span + .two::after {
+
+/*#toggler_2-3 span + .two::after {
   transform: rotateZ(45deg) translateX(100%);
 }
 #toggler_2-3 input:checked + span.one {
