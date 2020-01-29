@@ -757,11 +757,12 @@ button span {
   transform: translateY(-50%) rotateZ(45deg);
 }
 
-/*#toggler_3-2 span {
+#toggler_3-2 span {
   top: 50%;
   transform: translateY(-50%);
 }
-#toggler_3-2 span, #toggler_3-2 span::after {
+
+/*#toggler_3-2 span, #toggler_3-2 span::after {
   position: absolute;
   left: 0;
   width: 100%;
