@@ -107,12 +107,13 @@ button span {
   will-change: transform;
 }
 
-/*#toggler_1-2 span::before, #toggler_1-2 span::after {
+#toggler_1-2 span::before, #toggler_1-2 span::after {
   content: "";
   display: block;
   transition: transform 350ms ease;
 }
-#toggler_1-2 span::before {
+
+/*#toggler_1-2 span::before {
   top: -18px;
   transform-origin: top left;
 }
