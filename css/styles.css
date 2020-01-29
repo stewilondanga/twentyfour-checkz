@@ -1235,14 +1235,15 @@ button span {
   height: 9px;
 }
 
-/*#toggler_5-3 span::before, #toggler_5-3 span::after {
+#toggler_5-3 span::before, #toggler_5-3 span::after {
   content: "";
   display: block;
   top: 0;
   width: 50px;
   background-color: #C0C0C0;
 }
-#toggler_5-3 span::before {
+
+/*#toggler_5-3 span::before {
   transform: rotateZ(-45deg) translateX(-12px) translateY(12px);
   transform-origin: bottom left;
   transition: transform 350ms ease;
