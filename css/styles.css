@@ -1349,21 +1349,24 @@ button span {
   }
 }
 
-/*@keyframes t_5-4_after_forwards {
+@keyframes t_5-4_after_forwards {
   0% {
     width: 50px;
     transform: rotateZ(45deg) translateX(18px) translateY(6px);
   }
+
   50% {
     width: 9px;
     transform: rotateZ(45deg) translateX(5.5px) translateY(-22px);
   }
+
   100% {
     width: 50px;
     transform: rotateZ(45deg) translateX(-23.5px) translateY(6px);
   }
 }
-@keyframes t_5-4_before_backwards {
+
+/*@keyframes t_5-4_before_backwards {
   0% {
     width: 50px;
     transform: rotateZ(-45deg) translateX(29.5px) translateY(12px);
