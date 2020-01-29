@@ -565,14 +565,15 @@ button span {
   top: 50%;
 }
 
-/*#toggler_2-3 span, #toggler_2-3 span::before, #toggler_2-3 span::after {
+#toggler_2-3 span, #toggler_2-3 span::before, #toggler_2-3 span::after {
   position: absolute;
   left: 0;
   width: 100%;
   height: 9px;
   transition: transform 350ms ease, opacity 350ms ease;
 }
-#toggler_2-3 span::before, #toggler_2-3 span::after {
+
+/*#toggler_2-3 span::before, #toggler_2-3 span::after {
   content: "";
   display: block;
 }
