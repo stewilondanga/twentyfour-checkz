@@ -1798,10 +1798,11 @@ button span {
   background-color: #550600;
 }
 
-/*.toggler[id^="toggler_2"] {
+.toggler[id^="toggler_2"] {
   background-color: #032137;
 }
-.toggler[id^="toggler_3"] {
+
+/*.toggler[id^="toggler_3"] {
   background-color: #277552;
 }
 .toggler[id^="toggler_4"] {
