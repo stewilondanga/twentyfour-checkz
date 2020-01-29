@@ -453,10 +453,11 @@ button span {
   transition: opacity 700ms ease 700ms;
 }
 
-/*#toggler_2-1 span + .two {
+#toggler_2-1 span+.two {
   background-color: transparent;
 }
-#toggler_2-1 span + .two, #toggler_2-1 span + .two::before, #toggler_2-1 span + .two::after {
+
+/*#toggler_2-1 span + .two, #toggler_2-1 span + .two::before, #toggler_2-1 span + .two::after {
   opacity: 0;
   transition: opacity 700ms ease;
 }
