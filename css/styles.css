@@ -1653,10 +1653,11 @@ button span {
   animation-name: t_6-4_after_forwards;
 }
 
-/*#toggler_6-4 .two::before {
+#toggler_6-4 .two::before {
   transform: translateX(-12px);
 }
-#toggler_6-4 .two::after {
+
+/*#toggler_6-4 .two::after {
   transform: translateX(-3px);
 }
 #toggler_6-4 input.input-1 {
