@@ -640,10 +640,11 @@ button span {
   transform: rotateZ(45deg) translateX(0);
 }
 
-/*#toggler_2-4 span {
+#toggler_2-4 span {
   top: 50%;
 }
-#toggler_2-4 span, #toggler_2-4 span::before, #toggler_2-4 span::after {
+
+/*#toggler_2-4 span, #toggler_2-4 span::before, #toggler_2-4 span::after {
   position: absolute;
 }
 #toggler_2-4 span::before, #toggler_2-4 span::after {
