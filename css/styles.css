@@ -1661,13 +1661,14 @@ button span {
   transform: translateX(-3px);
 }
 
-/*#toggler_6-4 input.input-1 {
+#toggler_6-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
-#toggler_6-4 input.input-1:not(:checked) ~ .outer span.one::before, #toggler_6-4 input.input-1:not(:checked) ~ .outer span.one::after {
+
+/*#toggler_6-4 input.input-1:not(:checked) ~ .outer span.one::before, #toggler_6-4 input.input-1:not(:checked) ~ .outer span.one::after {
   animation-name: none;
 }
 #toggler_6-4 input.input-1:checked {
