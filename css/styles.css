@@ -1383,21 +1383,24 @@ button span {
   }
 }
 
-/*@keyframes t_5-4_after_backwards {
+@keyframes t_5-4_after_backwards {
   0% {
     width: 50px;
     transform: rotateZ(45deg) translateX(-23.5px) translateY(6px);
   }
+
   50% {
     width: 9px;
     transform: rotateZ(45deg) translateX(5.5px) translateY(-22px);
   }
+
   100% {
     width: 50px;
     transform: rotateZ(45deg) translateX(18px) translateY(6px);
   }
 }
-#toggler_6-1 button {
+
+/*#toggler_6-1 button {
   top: -10px;
   width: 70px;
   height: 70px;
