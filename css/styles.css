@@ -1577,10 +1577,11 @@ button span {
   transition: background-color 350ms ease, width 350ms ease, transform 350ms ease;
 }
 
-/*#toggler_6-3 .inner::before {
+#toggler_6-3 .inner::before {
   transform: rotateZ(45deg) translateY(-7px) translateX(-1px);
 }
-#toggler_6-3 .inner::after {
+
+/*#toggler_6-3 .inner::after {
   transform: rotateZ(-45deg) translateY(7px) translateX(-1px);
 }
 #toggler_6-3 input:checked + .outer {
