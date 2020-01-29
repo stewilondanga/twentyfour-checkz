@@ -1291,12 +1291,13 @@ button span {
   animation-name: t_5-4_before_forwards;
 }
 
-/*#toggler_5-4 span::after {
+#toggler_5-4 span::after {
   transform: rotateZ(45deg) translateX(18px) translateY(6px);
   transform-origin: bottom right;
   animation-name: t_5-4_after_forwards;
 }
-#toggler_5-4 span.disabled::before, #toggler_5-4 span.disabled::after {
+
+/*#toggler_5-4 span.disabled::before, #toggler_5-4 span.disabled::after {
   animation: none;
 }
 #toggler_5-4 input.input-1 {
