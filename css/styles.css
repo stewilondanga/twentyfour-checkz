@@ -1275,7 +1275,7 @@ button span {
   height: 9px;
 }
 
-/*#toggler_5-4 span::before, #toggler_5-4 span::after {
+#toggler_5-4 span::before, #toggler_5-4 span::after {
   content: "";
   display: block;
   top: 0;
@@ -1284,7 +1284,8 @@ button span {
   animation-duration: 700ms;
   animation-fill-mode: forwards;
 }
-#toggler_5-4 span::before {
+
+/*#toggler_5-4 span::before {
   transform: rotateZ(-45deg) translateX(-12px) translateY(12px);
   transform-origin: bottom left;
   animation-name: t_5-4_before_forwards;
