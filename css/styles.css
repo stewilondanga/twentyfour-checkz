@@ -762,7 +762,7 @@ button span {
   transform: translateY(-50%);
 }
 
-/*#toggler_3-2 span, #toggler_3-2 span::after {
+#toggler_3-2 span, #toggler_3-2 span::after {
   position: absolute;
   left: 0;
   width: 100%;
@@ -770,7 +770,8 @@ button span {
   background-color: #75B095;
   transition: transform 700ms ease;
 }
-#toggler_3-2 span::after {
+
+/*#toggler_3-2 span::after {
   content: "";
   display: block;
   top: 0;
