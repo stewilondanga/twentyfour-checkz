@@ -123,11 +123,12 @@ button span {
   transform-origin: bottom left;
 }
 
-/*#toggler_1-2 input:checked + span {
+#toggler_1-2 input:checked+span {
   transform: translateY(-50%) rotateZ(270deg);
   background-color: transparent;
 }
-#toggler_1-2 input:checked + span::before {
+
+/*#toggler_1-2 input:checked + span::before {
   transform: translateY(-2px) translateX(10px) rotateZ(45deg);
 }
 #toggler_1-2 input:checked + span::after {
