@@ -967,11 +967,11 @@ button span {
   transition: transform 350ms ease;
 }
 
-/*#toggler_4-1 input:checked + span::after {
+#toggler_4-1 input:checked+span::after {
   transform: rotateZ(0);
 }
 
-#toggler_4-2 span {
+/*#toggler_4-2 span {
   top: 50%;
   transform: translateY(-50%) rotateZ(0);
 }
