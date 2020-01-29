@@ -466,11 +466,12 @@ button span {
   background-color: #708EA4;
 }
 
-/*#toggler_2-1 span + .two::before {
+#toggler_2-1 span+.two::before {
   transform-origin: top left;
   transform: translateY(-2px) translateX(12px) rotateZ(45deg);
 }
-#toggler_2-1 span + .two::after {
+
+/*#toggler_2-1 span + .two::after {
   transform-origin: bottom left;
   transform: translateY(2px) translateX(12px) rotateZ(-45deg);
 }
