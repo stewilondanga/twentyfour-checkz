@@ -595,10 +595,11 @@ button span {
   top: -18px;
 }
 
-/*#toggler_2-3 span.one::after {
+#toggler_2-3 span.one::after {
   bottom: -18px;
 }
-#toggler_2-3 span + .two {
+
+/*#toggler_2-3 span + .two {
   opacity: 0;
   background-color: transparent;
 }
