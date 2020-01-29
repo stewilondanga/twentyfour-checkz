@@ -132,11 +132,11 @@ button span {
   transform: translateY(-2px) translateX(10px) rotateZ(45deg);
 }
 
-/*#toggler_1-2 input:checked + span::after {
+#toggler_1-2 input:checked+span::after {
   transform: translateY(2px) translateX(10px) rotateZ(-45deg);
 }
 
-#toggler_1-3 span.outer {
+/*#toggler_1-3 span.outer {
   top: 50%;
   transform: translateY(-50%);
   transition: height 700ms ease 350ms, border-radius 700ms ease 350ms;
