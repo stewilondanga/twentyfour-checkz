@@ -537,10 +537,11 @@ button span {
   opacity: 0;
 }
 
-/*#toggler_2-2 input:checked + span.one::before, #toggler_2-2 input:checked + span.one::after {
+#toggler_2-2 input:checked+span.one::before, #toggler_2-2 input:checked+span.one::after {
   transition: transform 350ms ease;
 }
-#toggler_2-2 input:checked + span.one::before {
+
+/*#toggler_2-2 input:checked + span.one::before {
   transform: translateY(18px);
 }
 #toggler_2-2 input:checked + span.one::after {
