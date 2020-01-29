@@ -728,11 +728,11 @@ button span {
   transform: translateX(2px) translateY(-14px);
 }
 
-/*#toggler_2-4 input:checked + span + .two::after {
+#toggler_2-4 input:checked+span+.two::after {
   transform: translateX(-2px) translateY(-14px);
 }
 
-#toggler_3-1 span {
+/*#toggler_3-1 span {
   top: 50%;
   transform: translateY(-50%);
   transition: transform 350ms ease;
