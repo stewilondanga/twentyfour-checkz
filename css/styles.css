@@ -549,10 +549,11 @@ button span {
   transform: translateY(-18px);
 }
 
-/*#toggler_2-2 input:checked + span + .two::before, #toggler_2-2 input:checked + span + .two::after {
+#toggler_2-2 input:checked+span+.two::before, #toggler_2-2 input:checked+span+.two::after {
   transition: transform 350ms ease 350ms;
 }
-#toggler_2-2 input:checked + span + .two::before {
+
+/*#toggler_2-2 input:checked + span + .two::before {
   transform: rotateZ(45deg);
 }
 #toggler_2-2 input:checked + span + .two::after {
