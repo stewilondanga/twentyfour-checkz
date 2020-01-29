@@ -210,7 +210,7 @@ button span {
   animation-name: t_1-4_span_forwards;
 }
 
-/*#toggler_1-4 span, #toggler_1-4 span::before, #toggler_1-4 span::after {
+#toggler_1-4 span, #toggler_1-4 span::before, #toggler_1-4 span::after {
   position: absolute;
   left: 0;
   width: 100%;
@@ -219,7 +219,8 @@ button span {
   animation-fill-mode: forwards;
   animation-duration: 1050ms;
 }
-#toggler_1-4 span::before, #toggler_1-4 span::after {
+
+/*#toggler_1-4 span::before, #toggler_1-4 span::after {
   content: "";
   display: block;
 }
