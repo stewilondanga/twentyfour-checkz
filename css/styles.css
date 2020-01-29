@@ -1566,7 +1566,7 @@ button span {
   position: absolute;
 }
 
-/*#toggler_6-3 .inner::before, #toggler_6-3 .inner::after {
+#toggler_6-3 .inner::before, #toggler_6-3 .inner::after {
   content: "";
   display: block;
   width: 20px;
@@ -1576,7 +1576,8 @@ button span {
   background-color: #9D7DBF;
   transition: background-color 350ms ease, width 350ms ease, transform 350ms ease;
 }
-#toggler_6-3 .inner::before {
+
+/*#toggler_6-3 .inner::before {
   transform: rotateZ(45deg) translateY(-7px) translateX(-1px);
 }
 #toggler_6-3 .inner::after {
