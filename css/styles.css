@@ -1446,14 +1446,15 @@ button span {
   transform: rotateZ(-90deg) translateY(-4px) translateX(-1px);
 }
 
-/*#toggler_6-1 .inner::after {
+#toggler_6-1 .inner::after {
   top: 0;
   right: 0;
   width: 26px;
   transform: rotateZ(-45deg) translateY(8px) translateX(-8px);
   transition: transform 350ms ease, background-color 350ms ease;
 }
-#toggler_6-1 input:checked + .outer .inner {
+
+/*#toggler_6-1 input:checked + .outer .inner {
   transform: rotateZ(45deg) translateX(-5px) translateY(13px);
   width: 30px;
 }
