@@ -1312,10 +1312,11 @@ button span {
   animation-name: none;
 }
 
-/*#toggler_5-4 input.input-1:checked {
+#toggler_5-4 input.input-1:checked {
   display: none;
 }
-#toggler_5-4 input.input-1:checked ~ span {
+
+/*#toggler_5-4 input.input-1:checked ~ span {
   transform: translateY(34px);
 }
 #toggler_5-4 input.input-2:checked + span {
