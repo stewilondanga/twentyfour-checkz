@@ -262,24 +262,27 @@ button span {
   animation-name: t_1-4_after_backwards;
 }
 
-/*@keyframes t_1-4_span_forwards {
+@keyframes t_1-4_span_forwards {
   0% {
     width: 60px;
     left: 0;
     border-radius: 0;
   }
+
   50% {
     width: 9px;
     left: 25px;
     border-radius: 4.5px;
   }
+
   100% {
     width: 9px;
     left: 25px;
     border-radius: 4.5px;
   }
 }
-@keyframes t_1-4_span_backwards {
+
+/*@keyframes t_1-4_span_backwards {
   0% {
     width: 9px;
     left: 25px;
