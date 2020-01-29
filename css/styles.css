@@ -199,12 +199,12 @@ button span {
   opacity: 0;
 }
 
-/*#toggler_1-3 input:checked + span.outer span.inner {
+#toggler_1-3 input:checked+span.outer span.inner {
   opacity: 1;
   transition: opacity 350ms ease 600ms;
 }
 
-#toggler_1-4 span {
+/*#toggler_1-4 span {
   top: 50%;
   transform: translateY(-50%);
   animation-name: t_1-4_span_forwards;
