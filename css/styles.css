@@ -75,11 +75,12 @@ button span {
   transform-origin: top left;
 }
 
-/*#toggler_1-1 span::after {
+#toggler_1-1 span::after {
   bottom: -18px;
   transform-origin: bottom left;
 }
-#toggler_1-1 input:checked + span {
+
+/*#toggler_1-1 input:checked + span {
   background-color: transparent;
 }
 #toggler_1-1 input:checked + span::before {
