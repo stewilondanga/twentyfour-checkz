@@ -1438,14 +1438,15 @@ button span {
   transition: transform 350ms ease;
 }
 
-/*#toggler_6-1 .inner::before {
+#toggler_6-1 .inner::before {
   top: 0;
   right: 0;
   width: 20px;
   transform-origin: top right;
   transform: rotateZ(-90deg) translateY(-4px) translateX(-1px);
 }
-#toggler_6-1 .inner::after {
+
+/*#toggler_6-1 .inner::after {
   top: 0;
   right: 0;
   width: 26px;
