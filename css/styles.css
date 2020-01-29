@@ -1528,13 +1528,13 @@ button span {
   background-color: transparent;
 }
 
-/*#toggler_6-2 input:checked + .outer .inner::before, #toggler_6-2 input:checked + .outer .inner::after {
+#toggler_6-2 input:checked+.outer .inner::before, #toggler_6-2 input:checked+.outer .inner::after {
   background-color: #3B1167;
   width: 30px;
   transform: none;
 }
 
-#toggler_6-3 button {
+/*#toggler_6-3 button {
   top: -10px;
   width: 70px;
   height: 70px;
