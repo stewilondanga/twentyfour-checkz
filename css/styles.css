@@ -1320,10 +1320,11 @@ button span {
   transform: translateY(34px);
 }
 
-/*#toggler_5-4 input.input-2:checked + span {
+#toggler_5-4 input.input-2:checked+span {
   transform: translateY(-50%);
 }
-#toggler_5-4 input.input-2:checked + span::before {
+
+/*#toggler_5-4 input.input-2:checked + span::before {
   animation-name: t_5-4_before_backwards;
 }
 #toggler_5-4 input.input-2:checked + span::after {
