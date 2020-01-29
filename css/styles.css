@@ -1328,10 +1328,11 @@ button span {
   animation-name: t_5-4_before_backwards;
 }
 
-/*#toggler_5-4 input.input-2:checked + span::after {
+#toggler_5-4 input.input-2:checked+span::after {
   animation-name: t_5-4_after_backwards;
 }
-@keyframes t_5-4_before_forwards {
+
+/*@keyframes t_5-4_before_forwards {
   0% {
     width: 50px;
     transform: rotateZ(-45deg) translateX(-12px) translateY(12px);
