@@ -302,25 +302,28 @@ button span {
   }
 }
 
-/*@keyframes t_1-4_before_forwards {
+@keyframes t_1-4_before_forwards {
   0% {
     width: 60px;
     top: -18px;
     border-radius: 0;
     transform: rotateZ(0) translateX(0) translateY(0);
   }
+
   50% {
     width: 9px;
     top: 0;
     border-radius: 4.5px;
     transform: rotateZ(0) translateX(0) translateY(0);
   }
+
   50.1% {
     width: 9px;
     top: 0;
     border-radius: 4.5px;
     transform: rotateZ(-45deg) translateX(0) translateY(0);
   }
+
   100% {
     width: 60px;
     top: 0;
@@ -328,7 +331,8 @@ button span {
     transform: rotateZ(-45deg) translateX(-18px) translateY(-18px);
   }
 }
-@keyframes t_1-4_before_backwards {
+
+/*@keyframes t_1-4_before_backwards {
   0% {
     width: 60px;
     top: 0;
