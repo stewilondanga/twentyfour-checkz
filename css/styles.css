@@ -524,10 +524,11 @@ button span {
   bottom: -18px;
 }
 
-/*#toggler_2-2 span + .two {
+#toggler_2-2 span+.two {
   background-color: transparent;
 }
-#toggler_2-2 span + .two::before, #toggler_2-2 span + .two::after {
+
+/*#toggler_2-2 span + .two::before, #toggler_2-2 span + .two::after {
   background-color: #708EA4;
   transition: transform 350ms ease;
 }
