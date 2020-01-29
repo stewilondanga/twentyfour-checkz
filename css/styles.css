@@ -704,11 +704,12 @@ button span {
   border-left: 30px solid #708EA4;
 }
 
-/*#toggler_2-4 span + .two::after {
+#toggler_2-4 span+.two::after {
   right: 0;
   border-right: 30px solid #708EA4;
 }
-#toggler_2-4 input:checked + span.one {
+
+/*#toggler_2-4 input:checked + span.one {
   width: 0;
   transform: translateX(11px) translateY(-9px);
 }
