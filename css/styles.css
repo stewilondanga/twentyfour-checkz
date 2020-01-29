@@ -533,10 +533,11 @@ button span {
   transition: transform 350ms ease;
 }
 
-/*#toggler_2-2 input:checked + span.one {
+#toggler_2-2 input:checked+span.one {
   opacity: 0;
 }
-#toggler_2-2 input:checked + span.one::before, #toggler_2-2 input:checked + span.one::after {
+
+/*#toggler_2-2 input:checked + span.one::before, #toggler_2-2 input:checked + span.one::after {
   transition: transform 350ms ease;
 }
 #toggler_2-2 input:checked + span.one::before {
