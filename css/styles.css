@@ -1222,13 +1222,14 @@ button span {
   transform: rotateZ(45deg) translateX(-3px) translateY(27px);
 }
 
-/*#toggler_5-3 span {
+#toggler_5-3 span {
   top: 40%;
   transform: rotateZ(0) translateX(0) translateY(-50%);
   transition: transform 350ms ease;
   width: 100%;
 }
-#toggler_5-3 span, #toggler_5-3 span::before, #toggler_5-3 span::after {
+
+/*#toggler_5-3 span, #toggler_5-3 span::before, #toggler_5-3 span::after {
   position: absolute;
   left: 0;
   height: 9px;
