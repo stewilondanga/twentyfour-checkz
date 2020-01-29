@@ -689,7 +689,7 @@ button span {
   transition: width 350ms ease, height 350ms ease;
 }
 
-/*#toggler_2-4 span + .two::before, #toggler_2-4 span + .two::after {
+#toggler_2-4 span+.two::before, #toggler_2-4 span+.two::after {
   top: 0;
   width: 30px;
   height: 9px;
@@ -698,7 +698,8 @@ button span {
   transform: translateX(0) translateY(0);
   transition: border-width 350ms ease, transform 350ms ease;
 }
-#toggler_2-4 span + .two::before {
+
+/*#toggler_2-4 span + .two::before {
   left: 0;
   border-left: 30px solid #708EA4;
 }
