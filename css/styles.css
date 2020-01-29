@@ -45,12 +45,12 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 
-/*button span {
+button span {
   display: block;
   pointer-events: none;
 }
 
-#toggler_1-1 span {
+/*#toggler_1-1 span {
   top: 50%;
   transform: translateY(-50%);
   transition: background-color 350ms ease;
