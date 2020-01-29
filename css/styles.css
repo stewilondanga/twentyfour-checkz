@@ -1469,12 +1469,13 @@ button span {
   background-color: transparent;
 }
 
-/*#toggler_6-2 button {
+#toggler_6-2 button {
   top: -10px;
   width: 70px;
   height: 70px;
 }
-#toggler_6-2 .outer {
+
+/*#toggler_6-2 .outer {
   position: absolute;
   top: 0;
   left: 0;
