@@ -1430,14 +1430,15 @@ button span {
   position: absolute;
 }
 
-/*#toggler_6-1 .inner::before, #toggler_6-1 .inner::after {
+#toggler_6-1 .inner::before, #toggler_6-1 .inner::after {
   content: "";
   display: block;
   height: 4px;
   background-color: #9D7DBF;
   transition: transform 350ms ease;
 }
-#toggler_6-1 .inner::before {
+
+/*#toggler_6-1 .inner::before {
   top: 0;
   right: 0;
   width: 20px;
