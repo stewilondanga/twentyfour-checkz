@@ -1308,10 +1308,11 @@ button span {
   z-index: 1;
 }
 
-/*#toggler_5-4 input.input-1:not(:checked) ~ span::before, #toggler_5-4 input.input-1:not(:checked) ~ span::after {
+#toggler_5-4 input.input-1:not(:checked)~span::before, #toggler_5-4 input.input-1:not(:checked)~span::after {
   animation-name: none;
 }
-#toggler_5-4 input.input-1:checked {
+
+/*#toggler_5-4 input.input-1:checked {
   display: none;
 }
 #toggler_5-4 input.input-1:checked ~ span {
