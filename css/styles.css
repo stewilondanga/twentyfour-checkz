@@ -498,11 +498,12 @@ button span {
   height: 9px;
 }
 
-/*#toggler_2-2 span::before, #toggler_2-2 span::after {
+#toggler_2-2 span::before, #toggler_2-2 span::after {
   content: "";
   display: block;
 }
-#toggler_2-2 span.one {
+
+/*#toggler_2-2 span.one {
   opacity: 1;
   transition: opacity 0ms 350ms;
 }
