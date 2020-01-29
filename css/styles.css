@@ -220,11 +220,12 @@ button span {
   animation-duration: 1050ms;
 }
 
-/*#toggler_1-4 span::before, #toggler_1-4 span::after {
+#toggler_1-4 span::before, #toggler_1-4 span::after {
   content: "";
   display: block;
 }
-#toggler_1-4 span::before {
+
+/*#toggler_1-4 span::before {
   top: -18px;
   animation-name: t_1-4_before_forwards;
 }
