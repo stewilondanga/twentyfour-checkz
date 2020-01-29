@@ -1784,7 +1784,7 @@ button span {
   position: relative;
 }
 
-/*.toggler::after {
+.toggler::after {
   content: attr(id);
   display: block;
   position: absolute;
@@ -1793,7 +1793,8 @@ button span {
   font-size: 12px;
   font-family: monospace;
 }
-.toggler[id^="toggler_1"] {
+
+/*.toggler[id^="toggler_1"] {
   background-color: #550600;
 }
 .toggler[id^="toggler_2"] {
