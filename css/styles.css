@@ -153,13 +153,14 @@ button span {
   background-color: #FFB0AA;
 }
 
-/*#toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
+#toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
   content: "";
   display: block;
   transition: transform 350ms ease 350ms, opacity 350ms ease 350ms;
   opacity: 1;
 }
-#toggler_1-3 span.outer::before {
+
+/*#toggler_1-3 span.outer::before {
   top: -18px;
 }
 #toggler_1-3 span.outer::after {
