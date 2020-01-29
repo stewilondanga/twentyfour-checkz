@@ -996,11 +996,11 @@ button span {
   transform: translateY(-50%) rotateZ(360deg);
 }
 
-/*#toggler_4-2 input:checked + span::after {
+#toggler_4-2 input:checked+span::after {
   transform: rotateZ(0deg);
 }
 
-#toggler_4-3 span {
+/*#toggler_4-3 span {
   top: 0;
   left: 25.5px;
   width: 9px;
