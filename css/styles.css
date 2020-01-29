@@ -1061,13 +1061,14 @@ button span {
   animation-name: t_4-4_two_backwards;
 }
 
-/*#toggler_4-4 input.input-1 {
+#toggler_4-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
-#toggler_4-4 input.input-1:not(:checked) ~ span {
+
+/*#toggler_4-4 input.input-1:not(:checked) ~ span {
   animation-name: none;
 }
 #toggler_4-4 input.input-1:checked {
