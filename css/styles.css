@@ -1258,11 +1258,11 @@ button span {
   transform: rotateZ(-90deg) translateX(-10px) translateY(14px);
 }
 
-/*#toggler_5-3 input:checked + span::before {
+#toggler_5-3 input:checked+span::before {
   transform: rotateZ(-45deg) translateX(30px) translateY(12px);
 }
 
-#toggler_5-4 span {
+/*#toggler_5-4 span {
   top: 40%;
   transform: translateY(-50%);
   width: 100%;
