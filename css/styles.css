@@ -928,21 +928,25 @@ button span {
   }
 }
 
-/*@keyframes t_3-4_after_duplicate {
+@keyframes t_3-4_after_duplicate {
   0% {
     width: 60px;
   }
+
   33.333333% {
     width: 9px;
   }
+
   66.666666% {
     width: 9px;
   }
+
   100% {
     width: 60px;
   }
 }
-#toggler_4-1 span {
+
+/*#toggler_4-1 span {
   top: 50%;
   transform: translateY(-50%);
 }
