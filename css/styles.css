@@ -503,11 +503,12 @@ button span {
   display: block;
 }
 
-/*#toggler_2-2 span.one {
+#toggler_2-2 span.one {
   opacity: 1;
   transition: opacity 0ms 350ms;
 }
-#toggler_2-2 span.one, #toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
+
+/*#toggler_2-2 span.one, #toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
   background-color: #708EA4;
 }
 #toggler_2-2 span.one::before, #toggler_2-2 span.one::after {
