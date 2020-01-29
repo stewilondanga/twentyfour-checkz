@@ -992,10 +992,11 @@ button span {
   transform: rotateZ(-90deg);
 }
 
-/*#toggler_4-2 input:checked + span {
+#toggler_4-2 input:checked+span {
   transform: translateY(-50%) rotateZ(360deg);
 }
-#toggler_4-2 input:checked + span::after {
+
+/*#toggler_4-2 input:checked + span::after {
   transform: rotateZ(0deg);
 }
 
