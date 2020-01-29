@@ -64,12 +64,13 @@ button span {
   background-color: #FFB0AA;
 }
 
-/*#toggler_1-1 span::before, #toggler_1-1 span::after {
+#toggler_1-1 span::before, #toggler_1-1 span::after {
   content: "";
   display: block;
   transition: transform 350ms ease;
 }
-#toggler_1-1 span::before {
+
+/*#toggler_1-1 span::before {
   top: -18px;
   transform-origin: top left;
 }
