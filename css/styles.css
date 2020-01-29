@@ -1631,7 +1631,7 @@ button span {
   position: absolute;
 }
 
-/*#toggler_6-4 .one::before, #toggler_6-4 .one::after, #toggler_6-4 .two::before, #toggler_6-4 .two::after {
+#toggler_6-4 .one::before, #toggler_6-4 .one::after, #toggler_6-4 .two::before, #toggler_6-4 .two::after {
   content: "";
   display: block;
   top: 0;
@@ -1642,7 +1642,8 @@ button span {
   animation-duration: 700ms;
   animation-fill-mode: forwards;
 }
-#toggler_6-4 .one::before {
+
+/*#toggler_6-4 .one::before {
   transform: rotateZ(45deg) translateY(-4.5px) translateX(-4px);
   animation-name: t_6-4_before_forwards;
 }
