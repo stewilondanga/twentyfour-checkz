@@ -1043,7 +1043,7 @@ button span {
   animation-fill-mode: forwards;
 }
 
-/*#toggler_4-4 span.one {
+#toggler_4-4 span.one {
   top: 25px;
   left: 0;
   width: 100%;
@@ -1051,7 +1051,8 @@ button span {
   transform-origin: top right;
   animation-name: t_4-4_one_backwards;
 }
-#toggler_4-4 span.two {
+
+/*#toggler_4-4 span.two {
   top: 0;
   left: 25px;
   width: 9px;
