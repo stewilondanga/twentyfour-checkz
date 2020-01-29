@@ -653,12 +653,13 @@ button span {
   display: block;
 }
 
-/*#toggler_2-4 span.one {
+#toggler_2-4 span.one {
   height: 9px;
   transform: translateX(0) translateY(-50%);
   transition: width 350ms ease, transform 350ms ease;
 }
-#toggler_2-4 span.one, #toggler_2-4 span.one::before, #toggler_2-4 span.one::after {
+
+/*#toggler_2-4 span.one, #toggler_2-4 span.one::before, #toggler_2-4 span.one::after {
   left: 0;
   width: 100%;
   border-left: 0px solid transparent;
