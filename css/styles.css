@@ -850,10 +850,11 @@ button span {
   display: none;
 }
 
-/*#toggler_3-4 input.input-2:checked + span {
+#toggler_3-4 input.input-2:checked+span {
   animation-name: t_3-4_span_backwards;
 }
-#toggler_3-4 input.input-2:checked + span::after {
+
+/*#toggler_3-4 input.input-2:checked + span::after {
   animation-name: t_3-4_after_duplicate;
 }
 
