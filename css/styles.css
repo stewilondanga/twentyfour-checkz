@@ -392,25 +392,28 @@ button span {
   }
 }
 
-/*@keyframes t_1-4_after_backwards {
+@keyframes t_1-4_after_backwards {
   0% {
     width: 60px;
     bottom: 0;
     border-radius: 4.5px;
     transform: rotateZ(45deg) translateX(-18px) translateY(18px);
   }
+
   50% {
     width: 9px;
     bottom: 0;
     border-radius: 4.5px;
     transform: rotateZ(45deg) translateX(0) translateY(0);
   }
+
   50.1% {
     width: 9px;
     bottom: 0;
     border-radius: 4.5px;
     transform: rotateZ(0deg) translateX(0) translateY(0);
   }
+
   100% {
     width: 60px;
     bottom: -18px;
@@ -418,7 +421,8 @@ button span {
     transform: rotateZ(0) translateX(0) translateY(0);
   }
 }
-#toggler_2-1 span {
+
+/*#toggler_2-1 span {
   top: 50%;
   transform: translateY(-50%);
 }
