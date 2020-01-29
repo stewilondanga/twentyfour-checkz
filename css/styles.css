@@ -632,10 +632,11 @@ button span {
   opacity: 1;
 }
 
-/*#toggler_2-3 input:checked + span + .two::before {
+#toggler_2-3 input:checked+span+.two::before {
   transform: rotateZ(-45deg) translateX(0);
 }
-#toggler_2-3 input:checked + span + .two::after {
+
+/*#toggler_2-3 input:checked + span + .two::after {
   transform: rotateZ(45deg) translateX(0);
 }
 
