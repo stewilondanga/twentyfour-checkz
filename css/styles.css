@@ -145,14 +145,15 @@ button span {
   align-items: center;
 }
 
-/*#toggler_1-3 span.outer, #toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
+#toggler_1-3 span.outer, #toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
   position: absolute;
   left: 0;
   width: 100%;
   height: 9px;
   background-color: #FFB0AA;
 }
-#toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
+
+/*#toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
   content: "";
   display: block;
   transition: transform 350ms ease 350ms, opacity 350ms ease 350ms;
