@@ -746,13 +746,14 @@ button span {
   background-color: #75B095;
 }
 
-/*#toggler_3-1 span::after {
+#toggler_3-1 span::after {
   content: "";
   display: block;
   top: 0;
   transform: rotateZ(90deg);
 }
-#toggler_3-1 input:checked + span {
+
+/*#toggler_3-1 input:checked + span {
   transform: translateY(-50%) rotateZ(45deg);
 }
 
