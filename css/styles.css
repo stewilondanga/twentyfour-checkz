@@ -1088,11 +1088,11 @@ button span {
   animation-name: t_4-4_one_backwards;
 }
 
-/*#toggler_4-4 input.input-2:checked ~ span.two {
+#toggler_4-4 input.input-2:checked~span.two {
   animation-name: t_4-4_two_backwards;
 }
 
-@keyframes t_4-4_one_forwards {
+/*@keyframes t_4-4_one_forwards {
   0% {
     transform: translateX(0) translateY(0) rotateZ(0);
   }
