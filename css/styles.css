@@ -476,11 +476,12 @@ button span {
   transform: translateY(2px) translateX(12px) rotateZ(-45deg);
 }
 
-/*#toggler_2-1 input:checked + span.one, #toggler_2-1 input:checked + span.one::before, #toggler_2-1 input:checked + span.one::after {
+#toggler_2-1 input:checked+span.one, #toggler_2-1 input:checked+span.one::before, #toggler_2-1 input:checked+span.one::after {
   opacity: 0;
   transition: opacity 700ms ease;
 }
-#toggler_2-1 input:checked + span + .two, #toggler_2-1 input:checked + span + .two::before, #toggler_2-1 input:checked + span + .two::after {
+
+/*#toggler_2-1 input:checked + span + .two, #toggler_2-1 input:checked + span + .two::before, #toggler_2-1 input:checked + span + .two::after {
   opacity: 1;
   transition: opacity 700ms ease 700ms;
 }
