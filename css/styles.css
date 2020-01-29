@@ -671,11 +671,12 @@ button span {
   transition: border-width 350ms ease;
 }
 
-/*#toggler_2-4 span.one::before {
+#toggler_2-4 span.one::before {
   top: -18px;
   border-top: 9px solid #708EA4;
 }
-#toggler_2-4 span.one::after {
+
+/*#toggler_2-4 span.one::after {
   top: 18px;
   border-bottom: 9px solid #708EA4;
 }
