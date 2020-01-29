@@ -718,12 +718,13 @@ button span {
   border-width: 19px;
 }
 
-/*#toggler_2-4 input:checked + span + .two::before, #toggler_2-4 input:checked + span + .two::after {
+#toggler_2-4 input:checked+span+.two::before, #toggler_2-4 input:checked+span+.two::after {
   width: 0;
   height: 0;
   border-width: 19px;
 }
-#toggler_2-4 input:checked + span + .two::before {
+
+/*#toggler_2-4 input:checked + span + .two::before {
   transform: translateX(2px) translateY(-14px);
 }
 #toggler_2-4 input:checked + span + .two::after {
