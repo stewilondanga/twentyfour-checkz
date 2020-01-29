@@ -179,12 +179,13 @@ button span {
   transition: opacity 350ms ease;
 }
 
-/*#toggler_1-3 input:checked + span.outer {
+#toggler_1-3 input:checked+span.outer {
   height: 100%;
   border-radius: 50%;
   transition: height 700ms ease, border-radius 700ms ease;
 }
-#toggler_1-3 input:checked + span.outer::before, #toggler_1-3 input:checked + span.outer::after {
+
+/*#toggler_1-3 input:checked + span.outer::before, #toggler_1-3 input:checked + span.outer::after {
   transition: transform 350ms ease, opacity 350ms ease;
 }
 #toggler_1-3 input:checked + span.outer::before {
