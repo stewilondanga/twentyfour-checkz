@@ -1269,12 +1269,13 @@ button span {
   transition: transform 700ms ease;
 }
 
-/*#toggler_5-4 span, #toggler_5-4 span::before, #toggler_5-4 span::after {
+#toggler_5-4 span, #toggler_5-4 span::before, #toggler_5-4 span::after {
   position: absolute;
   left: 0;
   height: 9px;
 }
-#toggler_5-4 span::before, #toggler_5-4 span::after {
+
+/*#toggler_5-4 span::before, #toggler_5-4 span::after {
   content: "";
   display: block;
   top: 0;
