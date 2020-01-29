@@ -771,13 +771,14 @@ button span {
   transition: transform 700ms ease;
 }
 
-/*#toggler_3-2 span::after {
+#toggler_3-2 span::after {
   content: "";
   display: block;
   top: 0;
   transform: rotateZ(90deg);
 }
-#toggler_3-2 input:checked + span {
+
+/*#toggler_3-2 input:checked + span {
   transform: translateY(-50%) rotateZ(225deg);
 }
 #toggler_3-2 input:checked + span::after {
