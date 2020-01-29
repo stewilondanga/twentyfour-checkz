@@ -1285,12 +1285,13 @@ button span {
   animation-fill-mode: forwards;
 }
 
-/*#toggler_5-4 span::before {
+#toggler_5-4 span::before {
   transform: rotateZ(-45deg) translateX(-12px) translateY(12px);
   transform-origin: bottom left;
   animation-name: t_5-4_before_forwards;
 }
-#toggler_5-4 span::after {
+
+/*#toggler_5-4 span::after {
   transform: rotateZ(45deg) translateX(18px) translateY(6px);
   transform-origin: bottom right;
   animation-name: t_5-4_after_forwards;
