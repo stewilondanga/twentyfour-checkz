@@ -1009,11 +1009,12 @@ button span {
   transition: width 350ms ease, left 350ms ease, border-radius 350ms ease;
 }
 
-/*#toggler_4-3 span, #toggler_4-3 span::after {
+#toggler_4-3 span, #toggler_4-3 span::after {
   position: absolute;
   background-color: #FFDBAA;
 }
-#toggler_4-3 span::after {
+
+/*#toggler_4-3 span::after {
   content: "";
   display: block;
   top: 25px;
