@@ -681,14 +681,15 @@ button span {
   border-bottom: 9px solid #708EA4;
 }
 
-/*#toggler_2-4 span + .two {
+#toggler_2-4 span+.two {
   width: 100%;
   height: 9px;
   left: 0;
   transform: translateY(-50%);
   transition: width 350ms ease, height 350ms ease;
 }
-#toggler_2-4 span + .two::before, #toggler_2-4 span + .two::after {
+
+/*#toggler_2-4 span + .two::before, #toggler_2-4 span + .two::after {
   top: 0;
   width: 30px;
   height: 9px;
