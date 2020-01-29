@@ -858,29 +858,33 @@ button span {
   animation-name: t_3-4_after_duplicate;
 }
 
-/*@keyframes t_3-4_span_forwards {
+@keyframes t_3-4_span_forwards {
   0% {
     width: 60px;
     left: 0;
     transform: translateY(-50%) rotateZ(0deg);
   }
+
   33.333333% {
     width: 9px;
     left: 25px;
     transform: translateY(-50%) rotateZ(0deg);
   }
+
   66.666666% {
     width: 9px;
     left: 25px;
     transform: translateY(-50%) rotateZ(135deg);
   }
+
   100% {
     width: 60px;
     left: 0px;
     transform: translateY(-50%) rotateZ(135deg);
   }
 }
-@keyframes t_3-4_span_backwards {
+
+/*@keyframes t_3-4_span_backwards {
   0% {
     width: 60px;
     left: 0px;
