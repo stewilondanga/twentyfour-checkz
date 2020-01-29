@@ -1497,10 +1497,11 @@ button span {
   transition: background-color 350ms ease;
 }
 
-/*#toggler_6-2 .inner, #toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
+#toggler_6-2 .inner, #toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
   position: absolute;
 }
-#toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
+
+/*#toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
   content: "";
   display: block;
   width: 20px;
