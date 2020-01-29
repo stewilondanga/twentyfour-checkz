@@ -1297,10 +1297,11 @@ button span {
   animation-name: t_5-4_after_forwards;
 }
 
-/*#toggler_5-4 span.disabled::before, #toggler_5-4 span.disabled::after {
+#toggler_5-4 span.disabled::before, #toggler_5-4 span.disabled::after {
   animation: none;
 }
-#toggler_5-4 input.input-1 {
+
+/*#toggler_5-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
