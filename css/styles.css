@@ -620,10 +620,11 @@ button span {
   transform: translateX(100%) translateY(-50%);
 }
 
-/*#toggler_2-3 input:checked + span.one, #toggler_2-3 input:checked + span.one::before, #toggler_2-3 input:checked + span.one::after {
+#toggler_2-3 input:checked+span.one, #toggler_2-3 input:checked+span.one::before, #toggler_2-3 input:checked+span.one::after {
   opacity: 0;
 }
-#toggler_2-3 input:checked + span.one::before, #toggler_2-3 input:checked + span.one::after {
+
+/*#toggler_2-3 input:checked + span.one::before, #toggler_2-3 input:checked + span.one::after {
   transform: translateX(-200%);
 }
 #toggler_2-3 input:checked + span + .two {
