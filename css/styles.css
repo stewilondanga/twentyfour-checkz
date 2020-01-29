@@ -699,11 +699,12 @@ button span {
   transition: border-width 350ms ease, transform 350ms ease;
 }
 
-/*#toggler_2-4 span + .two::before {
+#toggler_2-4 span+.two::before {
   left: 0;
   border-left: 30px solid #708EA4;
 }
-#toggler_2-4 span + .two::after {
+
+/*#toggler_2-4 span + .two::after {
   right: 0;
   border-right: 30px solid #708EA4;
 }
