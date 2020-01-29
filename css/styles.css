@@ -778,10 +778,11 @@ button span {
   transform: rotateZ(90deg);
 }
 
-/*#toggler_3-2 input:checked + span {
+#toggler_3-2 input:checked+span {
   transform: translateY(-50%) rotateZ(225deg);
 }
-#toggler_3-2 input:checked + span::after {
+
+/*#toggler_3-2 input:checked + span::after {
   transform: rotateZ(-90deg);
 }
 
