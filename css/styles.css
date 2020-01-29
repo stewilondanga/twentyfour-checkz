@@ -230,11 +230,12 @@ button span {
   animation-name: t_1-4_before_forwards;
 }
 
-/*#toggler_1-4 span::after {
+#toggler_1-4 span::after {
   bottom: -18px;
   animation-name: t_1-4_after_forwards;
 }
-#toggler_1-4 input.input-1 {
+
+/*#toggler_1-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
