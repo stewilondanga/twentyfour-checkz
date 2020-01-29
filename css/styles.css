@@ -516,10 +516,11 @@ button span {
   transition: transform 350ms ease 350ms;
 }
 
-/*#toggler_2-2 span.one::before {
+#toggler_2-2 span.one::before {
   top: -18px;
 }
-#toggler_2-2 span.one::after {
+
+/*#toggler_2-2 span.one::after {
   bottom: -18px;
 }
 #toggler_2-2 span + .two {
