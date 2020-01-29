@@ -1464,12 +1464,12 @@ button span {
   transform: rotateZ(-90deg) translateY(-17.5px) translateX(12.5px);
 }
 
-/*#toggler_6-1 input:checked + .outer .inner::after {
+#toggler_6-1 input:checked+.outer .inner::after {
   transform: rotateZ(-45deg) translateY(1px) translateX(-47px);
   background-color: transparent;
 }
 
-#toggler_6-2 button {
+/*#toggler_6-2 button {
   top: -10px;
   width: 70px;
   height: 70px;
