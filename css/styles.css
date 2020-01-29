@@ -732,12 +732,13 @@ button span {
   transform: translateX(-2px) translateY(-14px);
 }
 
-/*#toggler_3-1 span {
+#toggler_3-1 span {
   top: 50%;
   transform: translateY(-50%);
   transition: transform 350ms ease;
 }
-#toggler_3-1 span, #toggler_3-1 span::after {
+
+/*#toggler_3-1 span, #toggler_3-1 span::after {
   position: absolute;
   left: 0;
   width: 100%;
