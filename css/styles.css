@@ -1585,10 +1585,11 @@ button span {
   transform: rotateZ(-45deg) translateY(7px) translateX(-1px);
 }
 
-/*#toggler_6-3 input:checked + .outer {
+#toggler_6-3 input:checked+.outer {
   background-color: #9D7DBF;
 }
-#toggler_6-3 input:checked + .outer .inner::before, #toggler_6-3 input:checked + .outer .inner::after {
+
+/*#toggler_6-3 input:checked + .outer .inner::before, #toggler_6-3 input:checked + .outer .inner::after {
   background-color: #3B1167;
   width: 30px;
 }
