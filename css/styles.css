@@ -258,11 +258,11 @@ button span {
   animation-name: t_1-4_before_backwards;
 }
 
-/*#toggler_1-4 input.input-2:checked + span::after {
+#toggler_1-4 input.input-2:checked+span::after {
   animation-name: t_1-4_after_backwards;
 }
 
-@keyframes t_1-4_span_forwards {
+/*@keyframes t_1-4_span_forwards {
   0% {
     width: 60px;
     left: 0;
