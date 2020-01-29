@@ -1672,10 +1672,11 @@ button span {
   animation-name: none;
 }
 
-/*#toggler_6-4 input.input-1:checked {
+#toggler_6-4 input.input-1:checked {
   display: none;
 }
-#toggler_6-4 input.input-2:checked ~ .outer span.one::before {
+
+/*#toggler_6-4 input.input-2:checked ~ .outer span.one::before {
   animation-name: t_6-4_before_backwards;
 }
 #toggler_6-4 input.input-2:checked ~ .outer span.one::after {
