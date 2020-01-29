@@ -1486,7 +1486,7 @@ button span {
   transition: background-color 350ms ease;
 }
 
-/*#toggler_6-2 .inner {
+#toggler_6-2 .inner {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -1496,7 +1496,8 @@ button span {
   background-color: #9D7DBF;
   transition: background-color 350ms ease;
 }
-#toggler_6-2 .inner, #toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
+
+/*#toggler_6-2 .inner, #toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
   position: absolute;
 }
 #toggler_6-2 .inner::before, #toggler_6-2 .inner::after {
