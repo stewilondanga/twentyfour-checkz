@@ -1072,10 +1072,11 @@ button span {
   animation-name: none;
 }
 
-/*#toggler_4-4 input.input-1:checked {
+#toggler_4-4 input.input-1:checked {
   display: none;
 }
-#toggler_4-4 input.input-1:checked ~ span.one {
+
+/*#toggler_4-4 input.input-1:checked ~ span.one {
   animation-name: t_4-4_one_forwards;
 }
 #toggler_4-4 input.input-1:checked ~ span.two {
