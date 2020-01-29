@@ -439,10 +439,11 @@ button span {
   display: block;
 }
 
-/*#toggler_2-1 span::before {
+#toggler_2-1 span::before {
   top: -18px;
 }
-#toggler_2-1 span::after {
+
+/*#toggler_2-1 span::after {
   bottom: -18px;
 }
 #toggler_2-1 span.one, #toggler_2-1 span.one::before, #toggler_2-1 span.one::after {
