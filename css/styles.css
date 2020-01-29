@@ -250,10 +250,11 @@ button span {
   display: none;
 }
 
-/*#toggler_1-4 input.input-2:checked + span {
+#toggler_1-4 input.input-2:checked+span {
   animation-name: t_1-4_span_backwards;
 }
-#toggler_1-4 input.input-2:checked + span::before {
+
+/*#toggler_1-4 input.input-2:checked + span::before {
   animation-name: t_1-4_before_backwards;
 }
 #toggler_1-4 input.input-2:checked + span::after {
