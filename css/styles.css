@@ -1750,10 +1750,11 @@ button span {
   padding: 20px;
 }
 
-/*.group#group1 {
+.group#group1 {
   background-color: #D4726A;
 }
-.group#group2 {
+
+/*.group#group2 {
   background-color: #486D88;
 }
 .group#group3 {
