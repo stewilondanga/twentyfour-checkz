@@ -185,10 +185,11 @@ button span {
   transition: height 700ms ease, border-radius 700ms ease;
 }
 
-/*#toggler_1-3 input:checked + span.outer::before, #toggler_1-3 input:checked + span.outer::after {
+#toggler_1-3 input:checked+span.outer::before, #toggler_1-3 input:checked+span.outer::after {
   transition: transform 350ms ease, opacity 350ms ease;
 }
-#toggler_1-3 input:checked + span.outer::before {
+
+/*#toggler_1-3 input:checked + span.outer::before {
   transform: translateY(-25px);
   opacity: 0;
 }
