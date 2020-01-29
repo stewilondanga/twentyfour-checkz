@@ -457,11 +457,12 @@ button span {
   background-color: transparent;
 }
 
-/*#toggler_2-1 span + .two, #toggler_2-1 span + .two::before, #toggler_2-1 span + .two::after {
+#toggler_2-1 span+.two, #toggler_2-1 span+.two::before, #toggler_2-1 span+.two::after {
   opacity: 0;
   transition: opacity 700ms ease;
 }
-#toggler_2-1 span + .two::before, #toggler_2-1 span + .two::after {
+
+/*#toggler_2-1 span + .two::before, #toggler_2-1 span + .two::after {
   background-color: #708EA4;
 }
 #toggler_2-1 span + .two::before {
