@@ -946,11 +946,12 @@ button span {
   }
 }
 
-/*#toggler_4-1 span {
+#toggler_4-1 span {
   top: 50%;
   transform: translateY(-50%);
 }
-#toggler_4-1 span, #toggler_4-1 span::after {
+
+/*#toggler_4-1 span, #toggler_4-1 span::after {
   position: absolute;
   left: 0;
   width: 100%;
