@@ -827,14 +827,15 @@ button span {
   animation-duration: 1050ms;
 }
 
-/*#toggler_3-4 span::after {
+#toggler_3-4 span::after {
   content: "";
   display: block;
   top: 0;
   transform: rotateZ(90deg);
   animation-name: t_3-4_after;
 }
-#toggler_3-4 input.input-1 {
+
+/*#toggler_3-4 input.input-1 {
   position: absolute;
   top: 0;
   left: 0;
