@@ -1030,13 +1030,13 @@ button span {
   border-radius: 50%;
 }
 
-/*#toggler_4-3 input:checked + span::after {
+#toggler_4-3 input:checked+span::after {
   width: 30px;
   left: 15.5px;
   background-color: #553100;
 }
 
-#toggler_4-4 span {
+/*#toggler_4-4 span {
   position: absolute;
   background-color: #FFDBAA;
   animation-duration: 1050ms;
