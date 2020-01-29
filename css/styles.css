@@ -811,11 +811,12 @@ button span {
   transform: translateY(-50%) rotateX(180deg) rotateZ(45deg);
 }
 
-/*#toggler_3-4 span {
+#toggler_3-4 span {
   top: 50%;
   transform: translateY(-50%);
   animation-name: t_3-4_span_forwards;
 }
+
 /*#toggler_3-4 span, #toggler_3-4 span::after {
   position: absolute;
   left: 0;
