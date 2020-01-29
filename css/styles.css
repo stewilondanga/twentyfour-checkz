@@ -578,10 +578,11 @@ button span {
   display: block;
 }
 
-/*#toggler_2-3 span.one {
+#toggler_2-3 span.one {
   transform: translateY(-50%);
 }
-#toggler_2-3 span.one, #toggler_2-3 span.one::before, #toggler_2-3 span.one::after {
+
+/*#toggler_2-3 span.one, #toggler_2-3 span.one::before, #toggler_2-3 span.one::after {
   opacity: 1;
   background-color: #708EA4;
 }
