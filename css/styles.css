@@ -676,11 +676,12 @@ button span {
   border-top: 9px solid #708EA4;
 }
 
-/*#toggler_2-4 span.one::after {
+#toggler_2-4 span.one::after {
   top: 18px;
   border-bottom: 9px solid #708EA4;
 }
-#toggler_2-4 span + .two {
+
+/*#toggler_2-4 span + .two {
   width: 100%;
   height: 9px;
   left: 0;
