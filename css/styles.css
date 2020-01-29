@@ -194,11 +194,12 @@ button span {
   opacity: 0;
 }
 
-/*#toggler_1-3 input:checked + span.outer::after {
+#toggler_1-3 input:checked+span.outer::after {
   transform: translateY(25px);
   opacity: 0;
 }
-#toggler_1-3 input:checked + span.outer span.inner {
+
+/*#toggler_1-3 input:checked + span.outer span.inner {
   opacity: 1;
   transition: opacity 350ms ease 600ms;
 }
