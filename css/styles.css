@@ -624,10 +624,11 @@ button span {
   opacity: 0;
 }
 
-/*#toggler_2-3 input:checked + span.one::before, #toggler_2-3 input:checked + span.one::after {
+#toggler_2-3 input:checked+span.one::before, #toggler_2-3 input:checked+span.one::after {
   transform: translateX(-200%);
 }
-#toggler_2-3 input:checked + span + .two {
+
+/*#toggler_2-3 input:checked + span + .two {
   opacity: 1;
 }
 #toggler_2-3 input:checked + span + .two::before {
