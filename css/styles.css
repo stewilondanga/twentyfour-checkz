@@ -1148,13 +1148,14 @@ button span {
   }
 }
 
-/*#toggler_5-1 span {
+#toggler_5-1 span {
   top: 40%;
   transform: translateY(-50%);
   transition: transform 350ms ease;
   width: 100%;
 }
-#toggler_5-1 span, #toggler_5-1 span::before, #toggler_5-1 span::after {
+
+/*#toggler_5-1 span, #toggler_5-1 span::before, #toggler_5-1 span::after {
   position: absolute;
   left: 0;
   height: 9px;
