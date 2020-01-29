@@ -591,10 +591,11 @@ button span {
   transform: translateX(0);
 }
 
-/*#toggler_2-3 span.one::before {
+#toggler_2-3 span.one::before {
   top: -18px;
 }
-#toggler_2-3 span.one::after {
+
+/*#toggler_2-3 span.one::after {
   bottom: -18px;
 }
 #toggler_2-3 span + .two {
