@@ -1684,18 +1684,21 @@ button span {
   animation-name: t_6-4_after_backwards;
 }
 
-/*@keyframes t_6-4_before_forwards {
+@keyframes t_6-4_before_forwards {
   0% {
     transform: rotateZ(45deg) translateY(-4.5px) translateX(-4px);
   }
+
   50% {
     transform: rotateZ(0) translateY(-12.5px) translateX(-8px);
   }
+
   100% {
     transform: rotateZ(0) translateY(0) translateX(-8px);
   }
 }
-@keyframes t_6-4_after_forwards {
+
+/*@keyframes t_6-4_after_forwards {
   0% {
     transform: rotateZ(-45deg) translateY(4.5px) translateX(-4px);
   }
