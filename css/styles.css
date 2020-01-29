@@ -136,7 +136,7 @@ button span {
   transform: translateY(2px) translateX(10px) rotateZ(-45deg);
 }
 
-/*#toggler_1-3 span.outer {
+#toggler_1-3 span.outer {
   top: 50%;
   transform: translateY(-50%);
   transition: height 700ms ease 350ms, border-radius 700ms ease 350ms;
@@ -144,7 +144,8 @@ button span {
   justify-content: center;
   align-items: center;
 }
-#toggler_1-3 span.outer, #toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
+
+/*#toggler_1-3 span.outer, #toggler_1-3 span.outer::before, #toggler_1-3 span.outer::after {
   position: absolute;
   left: 0;
   width: 100%;
