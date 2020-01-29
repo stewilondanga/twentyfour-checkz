@@ -160,10 +160,11 @@ button span {
   opacity: 1;
 }
 
-/*#toggler_1-3 span.outer::before {
+#toggler_1-3 span.outer::before {
   top: -18px;
 }
-#toggler_1-3 span.outer::after {
+
+/*#toggler_1-3 span.outer::after {
   bottom: -18px;
 }
 #toggler_1-3 span.inner {
