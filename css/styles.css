@@ -1726,19 +1726,21 @@ button span {
   }
 }
 
-/*@keyframes t_6-4_after_backwards {
+@keyframes t_6-4_after_backwards {
   0% {
     transform: rotateZ(0) translateY(0) translateX(-8px);
   }
+
   50% {
     transform: rotateZ(0) translateY(12.5px) translateX(-8px);
   }
+
   100% {
     transform: rotateZ(-45deg) translateY(4.5px) translateX(-4px);
   }
 }
 
-.group {
+/*.group {
   width: 90%;
   margin: 40px auto;
   display: flex;
