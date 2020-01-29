@@ -1627,10 +1627,11 @@ button span {
   height: 4px;
 }
 
-/*#toggler_6-4 .one, #toggler_6-4 .one::before, #toggler_6-4 .one::after, #toggler_6-4 .two, #toggler_6-4 .two::before, #toggler_6-4 .two::after {
+#toggler_6-4 .one, #toggler_6-4 .one::before, #toggler_6-4 .one::after, #toggler_6-4 .two, #toggler_6-4 .two::before, #toggler_6-4 .two::after {
   position: absolute;
 }
-#toggler_6-4 .one::before, #toggler_6-4 .one::after, #toggler_6-4 .two::before, #toggler_6-4 .two::after {
+
+/*#toggler_6-4 .one::before, #toggler_6-4 .one::after, #toggler_6-4 .two::before, #toggler_6-4 .two::after {
   content: "";
   display: block;
   top: 0;
