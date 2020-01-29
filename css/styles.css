@@ -1740,7 +1740,7 @@ button span {
   }
 }
 
-/*.group {
+.group {
   width: 90%;
   margin: 40px auto;
   display: flex;
@@ -1749,7 +1749,8 @@ button span {
   align-items: center;
   padding: 20px;
 }
-.group#group1 {
+
+/*.group#group1 {
   background-color: #D4726A;
 }
 .group#group2 {
