@@ -225,11 +225,12 @@ button span {
   display: block;
 }
 
-/*#toggler_1-4 span::before {
+#toggler_1-4 span::before {
   top: -18px;
   animation-name: t_1-4_before_forwards;
 }
-#toggler_1-4 span::after {
+
+/*#toggler_1-4 span::after {
   bottom: -18px;
   animation-name: t_1-4_after_forwards;
 }
