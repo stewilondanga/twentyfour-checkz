@@ -800,13 +800,14 @@ button span {
   transition: transform 700ms ease;
 }
 
-/*#toggler_3-3 span::after {
+#toggler_3-3 span::after {
   content: "";
   display: block;
   top: 0;
   transform: rotateZ(90deg);
 }
-#toggler_3-3 input:checked + span {
+
+/*#toggler_3-3 input:checked + span {
   transform: translateY(-50%) rotateX(180deg) rotateZ(45deg);
 }
 
