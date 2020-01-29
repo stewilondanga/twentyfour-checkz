@@ -1134,18 +1134,21 @@ button span {
   }
 }
 
-/*@keyframes t_4-4_two_backwards {
+@keyframes t_4-4_two_backwards {
   0% {
     transform: translateX(35.5px) translateY(20px) rotateZ(90deg);
   }
+
   50% {
     transform: translateX(4.5px) translateY(-4.5px) rotateZ(45deg);
   }
+
   100% {
     transform: translateX(0) translateY(0) rotateZ(0);
   }
 }
-#toggler_5-1 span {
+
+/*#toggler_5-1 span {
   top: 40%;
   transform: translateY(-50%);
   transition: transform 350ms ease;
