@@ -50,12 +50,13 @@ button span {
   pointer-events: none;
 }
 
-/*#toggler_1-1 span {
+#toggler_1-1 span {
   top: 50%;
   transform: translateY(-50%);
   transition: background-color 350ms ease;
 }
-#toggler_1-1 span, #toggler_1-1 span::before, #toggler_1-1 span::after {
+
+/*#toggler_1-1 span, #toggler_1-1 span::before, #toggler_1-1 span::after {
   position: absolute;
   left: 0;
   width: 100%;
