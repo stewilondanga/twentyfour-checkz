@@ -648,11 +648,12 @@ button span {
   position: absolute;
 }
 
-/*#toggler_2-4 span::before, #toggler_2-4 span::after {
+#toggler_2-4 span::before, #toggler_2-4 span::after {
   content: "";
   display: block;
 }
-#toggler_2-4 span.one {
+
+/*#toggler_2-4 span.one {
   height: 9px;
   transform: translateX(0) translateY(-50%);
   transition: width 350ms ease, transform 350ms ease;
